@@ -13,28 +13,50 @@ create table komponenta(
     sifra int not null primary key auto_increment,
     naziv varchar(50) not null,
     opis varchar(150) not null,
-    cijena decimal(18,2) not null
+    cijena decimal(18,2) not null,
+    narudzba int not null
 );
 
 create table gamingxracunalo(
     sifra int not null primary key auto_increment,
     naziv varchar(50) not null,
     opis varchar(200) not null,
-    cijena decimal(18,2) not null
+    cijena decimal(18,2) not null,
+    narudzba int not null
 );
 
+
+create table narudzba(
+    sifra int not null primary key auto_increment,
+    kupac int not null,
+    datum_narudzbe datetime,
+    datum_otpreme datetime
+);
+
+create table proizvod_narudzba(
+    gamingxracunalo int not null,
+    komponenta int not null,
+    narudzba int not null
+);
 
 create table kupac(
     sifra int not null primary key auto_increment,
     ime varchar(50) not null,
     prezime varchar(50) not null,
-    komponenta int,
-    gamingxracunalo int
+    email varchar(50) not null,
+    adresa varchar(50) not null,
+    brojtelefona varchar(20) not null
 );
 
 
-alter table kupac add foreign key (komponenta) references komponenta(sifra);
-alter table kupac add foreign key (gamingxracunalo) references gamingxracunalo(sifra);
+alter table narudzba add foreign key (kupac) references kupac(sifra);
+alter table proizvod_narudzba add foreign key (gamingxracunalo) references gamingxracunalo(sifra);
+alter table proizvod_narudzba add foreign key (komponenta) references komponenta(sifra);
+alter table proizvod_narudzba add foreign key (narudzba) references narudzba(sifra);
+
+
+
+
 
 
 
