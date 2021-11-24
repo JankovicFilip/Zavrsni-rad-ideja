@@ -13,16 +13,14 @@ create table komponenta(
     sifra int not null primary key auto_increment,
     naziv varchar(50) not null,
     opis varchar(150) not null,
-    cijena decimal(18,2) not null,
-    narudzba int not null
+    cijena decimal(18,2) not null
 );
 
 create table gamingxracunalo(
     sifra int not null primary key auto_increment,
     naziv varchar(50) not null,
     opis varchar(200) not null,
-    cijena decimal(18,2) not null,
-    narudzba int not null
+    cijena decimal(18,2) not null
 );
 
 
