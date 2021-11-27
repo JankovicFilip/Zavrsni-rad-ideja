@@ -66,3 +66,21 @@ insert into kupac (sifra,ime,prezime,email,adresa,brojtelefona) values
 (null,'Mario','Marić','Mare54@gmail.com','Strossmayerova 38 31000 Osijek','+385957778889');
 
 
+
+# grafičke kartice su od 1-10
+
+insert into komponenta (sifra,naziv,opis,cijena) values
+(null,'Grafička kartica','Grafička kartica XFX AMD Radeon RX 550, 2 GB GDDR5 (RX-550P2PFG5)',1216.96),
+(null,'Grafička kartica','Grafička kartica ASUS AMD Radeon ROG-STRIX-LC-RX6900XT-T16G-GAMING, 16 GB GDDR6, vodeno hlađenje',11026.43),
+(null,'Grafička kartica','Grafička kartica SAPPHIRE AMD Radeon RX 6900 XT Toxic Extreme Edition Gaming, 16 GB GDDR6, AIO Liquid Cooler 360mm, 11308-08-20G',17179.36),
+(null,'Grafička kartica','Grafička kartica ASUS AMD Radeon R7240-2GD5-L, 2 GB GDDR5',748.45),
+(null,'Grafička kartica','Grafička kartica SAPPHIRE AMD Radeon 550 Pulse, 2 GB GDDR5, 64-bit (11268-21-20G)',1269.94),
+(null,'Grafička kartica','Grafička kartica PCI-E GAINWARD GeForce RTX 3080 Phantom+, LHR, 10GB GDDR6X',13999.00),
+(null,'Grafička kartica','Grafička kartica PCI-E GAINWARD GeForce RTX 3070 Phantom+, LHR, 8GB GDDR6X',9399.00),
+(null,'Grafička kartica','Grafička kartica ASUS nVidia GeForce PH-GTX1650-O4GD6-P, 4 GB GDDR6',2702.45),
+(null,'Grafička kartica','Grafička kartica PCI-E ASUS GeForce RTX 3060TI OC LHR, 8GB GDDR6',7699.00),
+(null,'Grafička kartica','Grafička kartica PCI-E GIGABYTE Radeon RX 6700 XT Gaming OC, 12GB GDDR6',7999.00);
+
+
+
+
