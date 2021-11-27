@@ -83,4 +83,16 @@ insert into komponenta (sifra,naziv,opis,cijena) values
 
 
 
+# procesor 11-20
 
+insert into komponenta (sifra,naziv,opis,cijena) values
+(null,'Procesor','Procesor AMD Ryzen 5 5600X, 3700/4600 MHz, Socket AM4',2479.45),
+(null,'Procesor','Procesor AMD Ryzen 7 3700X, 3600/4400 MHz, Socket AM4',2737.06),
+(null,'Procesor','Procesor AMD Ryzen 7 5800X, 3800/4700 MHz, Socket AM4',4099.00),
+(null,'Procesor','Procesor AMD Ryzen 9 5900X, 3700/4800 MHz, Socket AM4',4948.65),
+(null,'Procesor','Procesor AMD Ryzen 9 5950X, 3400/4900 MHz, Socket AM4',6989.84),
+(null,'Procesor','Procesor INTEL Core i9 12900K BOX, s. 1700, 3.2GHz, 30MB cache, bez hladnjaka',5414.05),
+(null,'Procesor','Procesor INTEL Core i9 11900KF BOX, s. 1200, 3.5GHz, 16MB cache, Octa Core, bez hladnjaka',4759.05),
+(null,'Procesor','Procesor INTEL Core i9 10900KF BOX, s. 1200, 3.7GHz, 20MB cache, Deca Core, bez hladnjaka',3932.05),
+(null,'Procesor','Procesor INTEL Core i9 11900 BOX, s. 1200, 2.5GHz, 16MB cache, Octa Core',3846.05),
+(null,'Procesor','Procesor INTEL Core i7 12700K BOX, s. 1700, 3.6GHz, 25MB cache, bez hladnjaka',3799.05);
