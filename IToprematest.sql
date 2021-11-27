@@ -55,6 +55,14 @@ alter table proizvod_narudzba add foreign key (narudzba) references narudzba(sif
 
 
 
+# 1-6 Kupci
 
+insert into kupac (sifra,ime,prezime,email,adresa,brojtelefona) values
+(null,'Petra','Perić','petrica@gmail.com','Kninska 34 31000 Osijek','+385953334445'),
+(null,'Marko','Marić','markec@gmail.com','Svačičeva 12 31000 Osijek','+385994445553'),
+(null,'Ivan','Ivanić','ivki22@yahoo.com','Drinska 35 31000 Osijek','+385975554443'),
+(null,'Borna','Borić','Borki93@gmail.com','Radičeva 27 31000 Osijek','031333444'),
+(null,'Tea','Teić','Tea322@gmail.com','Umaška 21 31000 Osijek','031123456'),
+(null,'Mario','Marić','Mare54@gmail.com','Strossmayerova 38 31000 Osijek','+385957778889');
 
 
