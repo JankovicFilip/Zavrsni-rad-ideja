@@ -32,8 +32,8 @@ create table narudzba(
 );
 
 create table proizvod_narudzba(
-    gamingxracunalo int not null,
-    komponenta int not null,
+    gamingxracunalo int,
+    komponenta int,
     narudzba int not null
 );
 
