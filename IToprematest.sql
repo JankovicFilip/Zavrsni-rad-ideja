@@ -249,3 +249,199 @@ Hladnjak Ne',3799.05);
 
 
 
+# 21-30 matična ploča
+
+insert into komponenta (sifra,naziv,opis,cijena) values
+(null,'Matična ploča ASUS Maximus XII Formula, Intel Z490','Chipset Intel Z490
+Socket 1200
+Format ATX
+Vrsta memorije DDR4
+DIMM4
+USB 2.0: n/a
+USB 3.0: n/a
+USB 3.2: 9
+USB-C: 1
+D-SUB n/a
+DVI n/a
+DisplayPort n/a
+HDMI n/a
+M.2 Da
+U.2 n/a
+LAN: 10/100/1000
+Audio ROG SupremeFX 7.1 Surround Sound High Definition Audio CODEC S1220
+Bluetooth Da
+Wi-Fi Da',4179.05),
+(null,'Matična ploča ASUS ROG MAXIMUS XIII HERO, Intel Z590','ChipsetIntel Z590
+Socket1200
+FormatATX
+Vrsta memorijeDDR4
+DIMM4
+USB 2.0: 2
+USB 3.0: n/a
+USB 3.2: 6
+USB-C: 2
+D-SUBn/a
+DVIn/a
+DisplayPortn/a
+HDMI1
+M.2Da
+U.2n/a
+LAN: 10/100/1000
+AudioDa
+Bluetoothn/a
+Wi-Fi Da',4179.05),
+(null,'Matična ploča ASUS Maximus XII Apex, Intel Z490','Chipset Intel Z490
+Socket 1200
+Format ATX
+Vrsta memorije DDR4
+DIMM2
+USB 2.0: n/a
+USB 3.0: n/a
+USB 3.2: 9
+USB-C: 1
+D-SUB n/a
+DVI n/a
+DisplayPort n/a
+HDMI n/a
+M.2 Da
+U.2 n/a
+LAN: 10/100/1000
+Audio ROG SupremeFX 7.1-Channel High Definition Audio CODEC S1220A
+Bluetooth Da
+Wi-Fi Da',3989.05),
+(null,'Matična ploča ROG Strix Z690-F Gaming Wi-Fi, Intel Z690','CPU: Intel Socket LGA1700 for 12th Gen Intel Core
+Chipset: Intel Z690
+Socket: 1700
+Format: ATX
+Vrsta memorije: 4 x DIMM, Max. 128GB, DDR5
+
+USB 2.0: 4
+USB 3.0: n/a
+USB 3.2: 7
+USB-C: 3
+D-SUB: n/a
+DVI: n/a
+DisplayPort: 1
+HDMI: 1
+M.2: 4
+U.2: n/a
+LAN: 1
+
+Audio: ROG SupremeFX 7.1 Surround Sound High Definition Audio CODEC ALC4080
+Bluetooth: Da
+Wi-Fi: Da (802.11 a/b/g/n/ac/ax)',3989.05),
+(null,'Matična ploča ASUS ROG Crosshair VIII Hero WiFi, AMD X570','Chipset AMD X570
+Socket AM4
+Format ATX
+Vrsta memorije DDR4
+DIMM4
+USB 2.0: n/a
+USB 3.0: n/a
+USB 3.2: 11
+USB-C: 1
+D-SUB n/a
+DVI n/a
+DisplayPort n/a
+HDMI n/a
+M.2 Da
+U.2 n/a
+LAN: 10/100/1000
+Audio ROG SupremeFX 8-Channel High Definition Audio CODEC
+Bluetooth Da
+Wi-Fi Da',3837.05),
+(null,'Matična ploča GIGABYTE Z590 AORUS Master WiFi, Intel Z590','ChipsetIntel Z590
+Socket1200
+FormatATX
+Vrsta memorijeDDR4
+DIMM4
+USB 2.0: 2
+USB 3.0: n/a
+USB 3.2: 9 (Gen 1 x4 , Gen x5)
+USB-C: 1
+D-SUBn/a
+DVIn/a
+DisplayPort1
+HDMIn/a
+M.2Da
+U.2n/a
+LAN: 10/100/1000/2500
+AudioDa
+Bluetooth n/a
+Wi-FiDa [Intel Wi-Fi 6E AX210 / IEEE 802.11ax Wi-Fi 6]',3514.05),
+(null,'Matična ploča ASUS ROG STRIX Z590-E Gaming WiFi, Intel Z590','ChipsetIntel Z590
+Socket1200
+FormatATX
+Vrsta memorijeDDR4
+DIMM4
+USB 2.0: 2
+USB 3.0: n/a
+USB 3.2: 6
+USB-C: 2
+D-SUBn/a
+DVIn/a
+DisplayPort1
+HDMI1
+M.2Da
+U.2n/a
+LAN: 10/100/1000
+AudioDa
+Bluetoothn/a
+Wi-FiDa',3115.05),
+(null,'Matična ploča ROG Strix Z690-G Gaming Wi-Fi, Intel Z690','CPU: Intel Socket LGA1700 for 12th Gen Intel Core
+Chipset: Intel Z690
+Socket: 1700
+Format: mATX
+Vrsta memorije: 4 x DIMM, Max. 128GB, DDR5
+
+USB 2.0: 4
+USB 3.0: n/a
+USB 3.2: 7
+USB-C: 3
+D-SUB: n/a
+DVI: n/a
+DisplayPort: 1
+HDMI: 1
+M.2: 3
+U.2: n/a
+LAN: 1
+
+Audio: ROG SupremeFX 7.1 Surround Sound High Definition Audio CODEC ALC4080
+Bluetooth: Da
+Wi-Fi: Da (802.11 a/b/g/n/ac/ax)',2944.05),
+(null,'Matična ploča ASUS ROG STRIX Z590-F Gaming WiFi, Intel Z590','ChipsetIntel Z590
+Socket1200
+FormatATX
+Vrsta memorijeDDR4
+DIMM4
+USB 2.0: 2
+USB 3.0: n/a
+USB 3.2: 6
+USB-C: 2
+D-SUBn/a
+DVIn/a
+DisplayPort1
+HDMI1
+M.2Da
+U.2n/a
+LAN: 10/100/1000
+AudioDa
+Bluetoothn/a
+Wi-Fi Da',2849.05),
+(null,'Matična ploča ASROCK Z490 Taichi, Intel Z490','Chipset Intel Z490
+Socket 1200
+Format ATX
+Vrsta memorije DDR4
+DIMM4
+USB 2.0: n/a
+USB 3.0: n/a
+USB 3.1: 7
+USB-C: 1
+D-SUB n/a
+DVI n/a
+DisplayPort 1
+HDMI 1
+M.2 3
+LAN: 10/100/1000
+Audio Realtek ALC1200 Audio Codec
+Bluetooth n/a
+Wi-Fi Da',2754.05);
