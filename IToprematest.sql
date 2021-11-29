@@ -445,3 +445,52 @@ LAN: 10/100/1000
 Audio Realtek ALC1200 Audio Codec
 Bluetooth n/a
 Wi-Fi Da',2754.05);
+
+
+# 31-40 memorija
+
+
+insert into komponenta (sifra,naziv,opis,cijena) values
+(null,'Memorija PC-42600, 16 GB, G.SKILL Trident Z Royal Elite','Vrsta memorijeDDR4
+Veličina memorije (GB)2x8GB
+Brzina memorije (MHz)5333
+Napon1.60V',2754.05),
+(null,'Memorija PC-28800, 32 GB, G.SKILL Trident Z Neo','Vrsta memorijeDDR4
+Veličina memorije (GB)2x16GB
+Brzina memorije (MHz)3600
+Napon1.35V',2564.05),
+(null,'Memorija PC-32000, 16 GB, G.SKILL Trident Z Royal Elite','Vrsta memorijeDDR4
+Veličina memorije (GB)2x8GB
+Brzina memorije (MHz)4000
+Napon1.55V',2469.05),
+(null,'Memorija PC-32000, 16 GB, G.SKILL Trident Z Neo','Vrsta memorijeDDR4
+Veličina memorije (GB)2x8GB
+Brzina memorije (MHz)4000
+Napon1.35V',2089.05),
+(null,'Memorija PC-40500, 16 GB, G.SKILL Trident Z Royal Elite','Vrsta memorijeDDR4
+Veličina memorije (GB)2x8GB
+Brzina memorije (MHz)5066
+Napon1.60V',1994.05),
+(null,'Memorija PC-28800, 16 GB, G.SKILL Trident Z Royal Elite','Vrsta memorijeDDR4
+Veličina memorije (GB)2x8GB
+Brzina memorije (MHz)3600
+Napon1.45V',1899.05),
+(null,'Memorija PC-32000, 16 GB, G.SKILL Ripjaws V','Vrsta memorijeDDR4
+Veličina memorije (GB)2x8GB
+Brzina memorije (MHz)4000
+Napon1.35V',1804.05),
+(null,'Memorija PC4-25600, 32 GB, CRUCIAL Ballistix White','Vrsta memorije DDR4
+Veličina memorije (GB) 2x16GB
+Brzina memorije (MHz) 3200
+Napon 1.35V',1709.05),
+(null,'Memorija PC-24000, 32 GB, KINGSTON','Vrsta memorije: DDR4
+Veličina memorije (GB): 2x 16GB
+Brzina memorije (MHz): 3000
+Napon: 1.2V',1709.05),
+(null,'Memorija PC-24000, 32 GB, CORSAIR','Vrsta memorije DDR4
+Veličina memorije (GB) 32GB (2x16GB kit)
+Brzina memorije (MHz) 3000
+CAS: 16-20-20-38
+Napon 1.35V',1519.05);
+
+# ssd,hdd,napajanja,kučišta,hladnjaci,zvučne kartice to do
