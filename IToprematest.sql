@@ -161,13 +161,91 @@ Proizvođač čipa AMD',7999.00);
 # procesor 11-20
 
 insert into komponenta (sifra,naziv,opis,cijena) values
-(null,'Procesor','Procesor AMD Ryzen 5 5600X, 3700/4600 MHz, Socket AM4',2479.45),
-(null,'Procesor','Procesor AMD Ryzen 7 3700X, 3600/4400 MHz, Socket AM4',2737.06),
-(null,'Procesor','Procesor AMD Ryzen 7 5800X, 3800/4700 MHz, Socket AM4',4099.00),
-(null,'Procesor','Procesor AMD Ryzen 9 5900X, 3700/4800 MHz, Socket AM4',4948.65),
-(null,'Procesor','Procesor AMD Ryzen 9 5950X, 3400/4900 MHz, Socket AM4',6989.84),
-(null,'Procesor','Procesor INTEL Core i9 12900K BOX, s. 1700, 3.2GHz, 30MB cache, bez hladnjaka',5414.05),
-(null,'Procesor','Procesor INTEL Core i9 11900KF BOX, s. 1200, 3.5GHz, 16MB cache, Octa Core, bez hladnjaka',4759.05),
-(null,'Procesor','Procesor INTEL Core i9 10900KF BOX, s. 1200, 3.7GHz, 20MB cache, Deca Core, bez hladnjaka',3932.05),
-(null,'Procesor','Procesor INTEL Core i9 11900 BOX, s. 1200, 2.5GHz, 16MB cache, Octa Core',3846.05),
-(null,'Procesor','Procesor INTEL Core i7 12700K BOX, s. 1700, 3.6GHz, 25MB cache, bez hladnjaka',3799.05);
+(null,'Procesor AMD Ryzen 5 5600X, 3700/4600 MHz','Proizvođač procesora (R)	AMD
+Model (R)	Ryzen 5
+Socket (R)	AM4
+Radna frekvencija procesora (T)	3700 MHz
+Broj jezgri procesora (R)	6
+Broj dretvi (R)	12
+Hladnjak (R)	da
+Integrirana grafika (R)	ne',2479.45),
+(null,'Procesor AMD Ryzen 7 3700X, 3600/4400 MHz','Proizvođač procesora (R)	AMD
+Model (R)	Ryzen 7
+Socket (R)	AM4
+Radna frekvencija procesora (T)	3600 MHz
+Broj jezgri procesora (R)	8
+Broj dretvi (R)	16
+TDP (T)	65 W
+Hladnjak (R)	da
+Integrirana grafika (R)	ne',2737.06),
+(null,'Procesor AMD Ryzen 7 5800X, 3800/4700 MHz','Proizvođač procesora (R)	AMD
+Model (R)	Ryzen 7
+Socket (R)	AM4
+Radna frekvencija procesora (T)	3800 MHz
+Broj jezgri procesora (R)	8
+Broj dretvi (R)	16
+L2 cache (T)	4MB
+L3 cache (T)	32MB
+TDP (T)	105W
+Hladnjak (R)	ne
+Integrirana grafika (R)	ne',4099.00),
+(null,'Procesor AMD Ryzen 9 5900X, 3700/4800 MHz','Proizvođač procesora (R)	AMD
+Model (R)	Ryzen 9
+Socket (R)	AM4
+Radna frekvencija procesora (T)	3700 MHz
+Broj jezgri procesora (R)	12
+Broj dretvi (R)	24
+Hladnjak (R)	ne
+Integrirana grafika (R)	ne',4948.65),
+(null,'Procesor AMD Ryzen 9 5950X, 3400/4900 MHz','Proizvođač procesora (R)	AMD
+Model (R)	Ryzen 9
+Socket (R)	AM4
+Radna frekvencija procesora (T)	3400 MHz
+Broj jezgri procesora (R)	16
+Broj dretvi (R)	32
+Hladnjak (R)	ne
+Integrirana grafika (R)	ne',6989.84),
+(null,'Procesor INTEL Core i9 12900K BOX, s. 1700, 3.2GHz','Proizvođač: Intel
+Socket 1700
+Procesor tip Core i9 12900K
+Broj jezgri 16
+Brzina: 3.2 GHz
+Cache:30 MB
+GPU Da
+Hladnjak Ne',5414.05),
+(null,'Procesor INTEL Core i9 11900KF BOX, s. 1200, 3.5GHz','Proizvođač: Intel
+Socket 1200
+Procesor tip Core i9 11900
+Broj jezgri 8
+Brzina: 2.5 GHz
+Cache:16 MB
+GPU Da
+Hladnjak Da
+',4759.05),
+(null,'Procesor INTEL Core i9 10900KF BOX, s. 1200, 3.7GHz','Proizvođač: Intel
+Socket 1200
+Procesor tip Core i9 10900F
+Broj jezgri 10
+Brzina: 2.8 GHz
+Cache:20 MB
+GPU Ne
+Hladnjak Ne',3932.05),
+(null,'Procesor INTEL Core i9 11900 BOX, s. 1200, 2.5GHz','Proizvođač: Intel
+Socket 1200
+Procesor tip Core i9 11900KF
+Broj jezgri 8
+Brzina: 3.5 GHz
+Cache:16 MB
+GPU Ne
+Hladnjak Ne',3846.05),
+(null,'Procesor INTEL Core i7 12700K BOX, s. 1700, 3.6GHz','Proizvođač: Intel
+Socket 1700
+Procesor tip Core i7 12700K
+Broj jezgri 12
+Brzina: 3.6 GHz
+Cache:25 MB
+GPU Da
+Hladnjak Ne',3799.05);
+
+
+
