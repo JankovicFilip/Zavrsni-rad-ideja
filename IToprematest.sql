@@ -493,4 +493,148 @@ Brzina memorije (MHz) 3000
 CAS: 16-20-20-38
 Napon 1.35V',1519.05);
 
+
+# 41-50 napajanje
+
+insert into komponenta (sifra,naziv,opis,cijena) values
+(null,'Napajanje 850W, ANTEC High Current Gamer Gold Series','Tip: ATX 12V 2.4
+Modularni: Potpuno modularni
+Dimenzije (Š x D x V): 140 x 150 x 86 mm
+Ulazni napon: 100-240 VAC ±10%
+Ulazna struja: 12A-6A
+Raspon ulazne frekvencije: 50Hz-60Hz
+PFC: aktivni PFC (>0,9)
+Snaga signala: 100-500ms
+Učinkovitost: 92%
+Zaštita: OCP/OVP/UVP/SCP/OPP/OTP/SIP/NLO
+Izlazni kapacitet: 850W
+Radna temperatura: 0~40°C
+Regulator: cTUVus/TUV/CB/RCM/CE/EAC/CCC/BSMI/FCC/KR
+Ventilator: 120 mm FDB ventilator
+Certifikati: 80 Plus Gold
+Konektor: 1 x MB 24(20+4) Pin
+2 x 8(4+4) Pin EPS 12V
+6 x 8(6+2) Pin PCI-E
+10 x SATA
+5 x Molex
+1 x FDD',1139.05),
+(null,'Napajanje 750W CORSAIR RM750x','Snaga [W]750
+ATX standard:ATX V2,40
+80+ Certifikat80+ Gold
+Ventilator [mm]135
+ModularnoDa
+
+Konektori:
+20+4 pin ATX:1
+4 pin 12V:n/a
+8 pin (4+4) 12V:2
+6 pin PCIe:n/a
+8 pin (6+2) PCIe:4
+SATA:10
+MOLEX:n/a',1091.55),
+(null,'Napajanje 850W CORSAIR RM850','Snaga [W]850
+ATX standard:ATX V2,40
+80+ Certifikat80+ Gold
+Ventilator [mm]140
+ModularnoDa
+
+Konektori:
+20+4 pin ATX:1
+4 pin 12V:n/a
+8 pin (4+4) 12V:3
+6 pin PCIe:n/a
+8 pin (6+2) PCIe:4
+SATA:14
+MOLEX:n/a',1044.05),
+(null,'Napajanje 750W, ANTEC HCG750 Gold','Snaga [W]750
+ATX standard:ATX V2,4
+80+ Certifikat80+ Gold
+Ventilator [mm]120
+ModularnoDa
+
+Konektori:
+20+4 pin ATX:1
+4 pin 12V:n/a
+8 pin (4+4) 12V:2
+6 pin PCIe:n/a
+8 pin (6+2) PCIe:4
+8 pin PCIe:n/a
+SATA:8
+MOLEX:3
+Floppy:1
+',949.05),
+(null,'Napajanje 650W, BE QUIET Straight Power 11','Snaga [W]650
+ATX standard:ATX V2.4
+80+ Certifikat80+ Gold
+Ventilator [mm]135
+Modularno Da
+',949.05),
+(null,'Napajanje 750W, MSI MPG A750GF','Naziv proizvoda MPG A750GF
+Faktor oblika PSU ATX
+Snaga Watt 750W
+Ulazni napon 100 ~ 240 Vac
+Ulazna struja max. 115Vac / 10,0A 230Vac / 5,0A maks.
+Ulazna frekvencija 47Hz ~ 63Hz
+Učinkovitost Do 90% (80 Plus gold)
+Veličina ventilatora 140 mm
+Dimenzija 150mm x160mm x86mm
+PFC tip Active PFC',949.05),
+(null,'Napajanje 850W, CORSAIR TX-M Series, TX850','Snaga [W]850
+ATX standard:ATX V2,4
+80+ Certifikat80+ Platinum
+Ventilator [mm]140
+ModularnoDa
+
+Konektori:
+20+4 pin ATX:1
+4 pin 12V:n/a
+8 pin (4+4) 12V:1
+6 pin PCIe:n/a
+8 pin (6+2) PCIe:4
+SATA:8
+MOLEX:n/a
+Floppy:2',911.05),
+(null,'Napajanje 550W, CORSAIR RM550x','Snaga [W]550
+ATX standard:ATX V2,40
+80+ Certifikat80+ Gold
+Ventilator [mm]135
+ModularnoDa
+
+Konektori:
+20+4 pin ATX:1
+4 pin 12V:n/a
+8 pin (4+4) 12V:1
+6 pin PCIe:n/a
+8 pin (6+2) PCIe:2
+SATA:7
+MOLEX:n/a',901.55),
+(null,'Napajanje 650W, CORSAIR RM650x','Snaga [W]650
+ATX standard:ATX V2,4
+80+ Certifikat80+ Gold
+Ventilator [mm]140
+ModularnoDa
+
+Konektori:
+20+4 pin ATX:1
+4 pin 12V:n/a
+8 pin (4+4) 12V:1
+6 pin PCIe:n/a
+8 pin (6+2) PCIe:4
+SATA:9
+MOLEX:4
+Floppy:1',873.05),
+(null,'Napajanje 650W, MSI MPG A650GF','Naziv proizvoda MPG A650GF
+Faktor oblika PSU ATX
+Snaga Watt 650W
+Ulazni napon 100-240Vac
+Ulazna struja max. 115Vac / 10,0A 230Vac / 5,0A maks.
+Ulazna frekvencija 47Hz ~ 63Hz
+Učinkovitost Do 90% (80 Plus gold)
+Veličina ventilatora 140 mm
+Dimenzija 150mm x160mm x86mm
+PFC tip Active PFC',854.05);
+
+
+
+
 # ssd,hdd,napajanja,kučišta,hladnjaci,zvučne kartice to do
