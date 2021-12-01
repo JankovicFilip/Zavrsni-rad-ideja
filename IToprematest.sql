@@ -635,6 +635,211 @@ Dimenzija 150mm x160mm x86mm
 PFC tip Active PFC',854.05);
 
 
+# ssd 51-60
 
 
-# ssd,hdd,napajanja,kučišta,hladnjaci,zvučne kartice to do
+insert into komponenta (sifra,naziv,opis,cijena) values
+(null,'SSD 2000 GB SAMSUNG 980 PRO NVMe M.2','Sučelje M.2 (2280)
+Kapacitet diska 2000GB
+Brzina čitanja [MB/s] 7000
+Brzina zapisivanja [MB/s] 5000
+Veličina 2280
+Vrsta flash memorije Samsung V-NAND 3-bit MLC',3229.05),
+(null,'SSD 2000 GB SAMSUNG 870 EVO','Sučelje SATA
+Kapacitet diska 2000GB
+Brzina čitanja [MB/s] 560
+Brzina zapisivanja [MB/s] 530
+Vrsta flash memorije V-NAND MLC
+',2184.05),
+(null,'SSD 2000 GB SAMSUNG 970 Evo Plus NVMe M.2','Sučelje M.2
+Kapacitet diska 1000GB
+Brzina čitanja [MB/s] 3400
+Brzina zapisivanja [MB/s] 2500
+Veličina 2280
+Vrsta flash memorije V-NAND MLC
+',2136.55),
+(null,'SSD 2048 GB KINGSTON KC600','Sučelje SATA 3
+Kapacitet diska 2048GB
+Brzina čitanja [MB/s] 550
+Brzina zapisivanja [MB/s] 520
+Veličina 2.5"
+Vrsta flash memorije 3D TLC',2089.05    ),
+(null,'SSD 1000 GB SAMSUNG 980 PRO NVMe M.2','Sučelje M.2 (2280)
+Kapacitet diska 1000GB
+Brzina čitanja [MB/s] 7000
+Brzina zapisivanja [MB/s] 5000
+Veličina 2280
+Vrsta flash memorije Samsung V-NAND 3-bit MLC
+',1519.05),
+(null,'SSD 2000 GB KINGSTON NV1 SNVS/2000G, M.2/NVMe PCIe','Sučelje M.2 / NVMe PCIe Gen 3.0 x 4 Lanes
+Kapacitet diska 2000GB
+Brzina čitanja [MB/s] 2100
+Brzina zapisivanja [MB/s] 1700
+Veličina 2280
+Vrsta flash memorije n/a',1462.05),
+(null,'SSD 1000 GB LC POWER Phenom Pro Series','Sučelje M.2 / PCIe
+Kapacitet diska 1000GB
+Brzina čitanja [MB/s] 3200
+Brzina zapisivanja [MB/s] 2500
+Veličina 2280
+Vrsta flash memorije 3D NAND TLC',1120.05),
+(null,'SSD 1000 GB SAMSUNG 970 Evo Plus NVMe M.2','Sučelje PCI-E/M.2
+Kapacitet diska 1000GB
+Brzina čitanja [MB/s] 3500
+Brzina zapisivanja [MB/s] 3300
+Veličina 2280
+Vrsta flash memorije V-NAND 3-bit MLC
+',1072.55),
+(null,'SSD 500 GB SAMSUNG 980 PRO NVMe M.2','Sučelje M.2 (2280)
+Kapacitet diska 500GB
+Brzina čitanja [MB/s] 6900
+Brzina zapisivanja [MB/s] 5000
+Veličina 2280
+Vrsta flash memorije Samsung V-NAND 3-bit MLC
+',968.05),
+(null,'SSD 1000 GB LC POWER Phenom Series','Sučelje M.2 / PCIe
+Kapacitet diska 1000GB
+Brzina čitanja [MB/s] 1800
+Brzina zapisivanja [MB/s] 1500
+Veličina 2280
+Vrsta flash memorije 3D NAND TLC
+',873.05);
+
+
+# 61-65 hdd
+
+insert into komponenta (sifra,naziv,opis,cijena) values
+(null,'Tvrdi disk 10000 GB SEAGATE Ironwolf Pro NAS ST','Optimizirano za NAS uz AgileArray ™. AgileArray je izrađen za balansiranje s dvije razine
+i optimizaciju RAID-a u multi-bay okruženjima s najnaprednijom snagom.
+Moguće upravljanje.
+
+Sučelje: SATA 6 Gb/s
+Kapacitet diska [GB]: 10000
+Brzina rotacije [okr./min.]: 5900
+Cache [MB]: 256
+Veličina: 3.5"
+Namjena: Desktop',3704.05),
+(null,'Tvrdi disk TOSHIBA MG06ACA10TEY, 10000GB','Kapacitet: 10TB
+Brzina: 7.200 o / min
+Vrste sučelja: SATA
+Faktor oblika: 3,5-inčni 1,0-inčni LFF tvrdi disk
+Veličina sektora: 512 / 512e
+Održana propusnost: 237
+Sučelje: SATA 600 - 6,0 Gbps
+Ugrađena predmemorija: 256 MB',3229.05),
+(null,'Tvrdi disk 12000 GB SEAGATE Desktop Iron Wolf Guardian','Sučelje: SATA3
+Kapacitet diska [GB]: 12000
+Brzina rotacije [okr./min.]: 7200
+Cache [MB]: 256
+Veličina: 3.5´´
+Namjena: Desktop/NAS',2849.05),
+(null,'Tvrdi disk 10000 GB SEAGATE Ironwolf Guardian','Sučelje: SATA6
+Kapacitet diska [GB]: 10000
+Brzina rotacije [okr./min.]: 7200
+Cache [MB]: 256
+Veličina: 3.5"
+Namjena: NAS',2469.05),
+(null,'Tvrdi disk 8000 GB SEAGATE Desktop Skyhawk Guardian','Sučelje: SATA3
+Kapacitet diska [GB]: 8000
+Brzina rotacije [okr./min.]: 7200
+Cache [MB]: 256
+Veličina: 3.5´´
+Namjena: Desktop',2374.05);
+
+
+
+# 66-71 Kućište
+
+insert into komponenta (sifra,naziv,opis,cijena) values
+(null,'Kućište NZXT H710, E-ATX','Format: Mini-ITX/MicroATX/ATX/E-ATX
+USB 2.0: 1
+USB 3.0: n/a
+USB 3.1: 4
+USB-C:1
+2.5": 7
+3.5": 4
+5.25'': n/a
+Napajanje: n/a
+Window: DA
+Dimenzije [mm] 230 x 516 x 494',1281.55),
+(null,'Kućište NZXT H710, E-ATX','Format: Mini-ITX/MicroATX/ATX/E-ATX
+USB 2.0: n/a
+USB 3.0: n/a
+USB 3.1: 4
+USB-C:1
+2.5": 7
+3.5": 4
+5.25'': n/a
+Napajanje: n/a
+Window: DA
+Dimenzije [mm] 230 x 516 x 494',1281.55),
+(null,'Kućište NZXT H510i, ATX','Format: Mini ITX/Micro ATX/ATX
+USB 2.0: 1
+USB 3.0: n/a
+USB 3.1: 3
+USB-C:1
+2.5": 3
+3.5": 3
+5.25'': n/a
+Napajanje: n/a
+Window: DA
+Dimenzije [mm] 210 x 460 x 428',949.05),
+(null,'Kućište LC POWER LC-709B-ON ','Format: MIDI
+Podržavane Ploče: ATX, Micro-ATX, Mini-ITX
+USB 2.0:
+USB 3.0: 2
+2.5": 2
+3.5": 2
+Napajanje: n/a
+Window: Da
+Dimenzije [mm] 477 x 214 x 440',616.55),
+(null,'Kućište COOLERMASTER MasterBox','Format: mITX
+Podržavane Ploče: Mini DTX, Mini ITX
+USB 2.0: n/a
+USB 3.0: 2
+2.5": 2
+3.5": 1
+5.25'': n/a
+Napajanje: n/a
+Window: Da
+Dimenzije [mm] 376 x 185 x 292',669.00),
+(null,'Kućište CHIEFTEC BT-02B-U3-250VS, mini ITX','Format: mini ITX
+USB 2.0: n/a
+USB 3.0: 2
+2.5": n/a
+3.5": 1
+5.25":1
+Napajanje: 250
+Window: n/a
+Dimenzije [mm] 240 x 135 x 295',464.05);
+
+
+
+
+# 72-76 hladnjaci
+
+insert into komponenta (sifra,naziv,opis,cijena) values
+(null,'Cooler BE QUIET Dark Rock TF 2','Socket: 1200/1150/1151/1155/2011-3/2066/AM3+/AM4
+Veličina ventilatora (mm): 135
+Dimenzije hladnjaka (mm): 163 x 140 x 134
+Brzina ventilatora (rpm): 1400
+Razina buke (dBA): 27.1v',730.55),
+(null,'Cooler BE QUIET Dark Rock Pro 4','Socket: 1150/1151/1155/1156/1366/2011-3/2066/AM2+/AM3+/AM4/FM1/FM2+
+Veličina ventilatora (mm): 1x120, 1x135
+Dimenzije hladnjaka (mm): 123.7 x 136 x 162.8
+Brzina ventilatora (rpm): 1200 / 1500
+',721.05),
+(null,'Cooler BE QUIET Shadow Rock 3 White','Socket: 1150/1151/1155/1200/2066/2011/AM3+/AM4/
+Veličina ventilatora (mm): 120
+Dimenzije hladnjaka (mm): 96 x 130 x 163
+Brzina ventilatora (rpm): 1600',502.55),
+(null,'Cooler ARCTIC Freezer i35 A-RGB','Socket: 1155, 1151, 1150, 1200, 1700
+Veličina ventilatora (mm): 120
+Dimenzije (mm): 133 x 91 x 189
+Brzina ventilatora (rpm): 200 - 1700',379.05),
+(null,'Cooler ARCTIC Freezer 34 eSports DUO','Socket: 1150/1151/1155/1156/2011/2011-3/2066/AM4
+Veličina ventilatora (mm): 2x 120
+Dimenzije (mm): 124 x 103 x 157
+Brzina ventilatora (rpm): 200 - 2100
+Termički spoj: Unaprijed primjenjena MX-4 termalna pasta
+',360.05);
