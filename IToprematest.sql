@@ -843,3 +843,99 @@ Dimenzije (mm): 124 x 103 x 157
 Brzina ventilatora (rpm): 200 - 2100
 Termički spoj: Unaprijed primjenjena MX-4 termalna pasta
 ',360.05);
+
+
+# 1-7 računala
+
+
+insert into gamingxracunalo (sifra,naziv,opis,cijena) values
+(null,'Računalo LINKS Gaming G46A','Operativni sistem	Nema
+Procesor	AMD
+Procesor tip	Ryzen 5
+Procesor model	5600X
+Grafika	AMD
+Grafika model	RX 6800XT
+Radna memorija [GB]	16
+Kapacitet diska [GB]	0
+Kapacitet SSD-a [GB]	1000',19999.00),
+(null,'Računalo LINKS Gaming G50I','Operativni sistem	Nema
+Procesor	Intel
+Procesor tip	Core i5
+Procesor model	11600K
+Grafika	AMD
+Grafika model	RX 6800XT
+Radna memorija [GB]	16
+Kapacitet diska [GB]	0
+Kapacitet SSD-a [GB]	500',18699.00),
+(null,'Računalo LINKS Gaming G65A','Operativni sistem	Nema
+Procesor	AMD
+Procesor tip	Ryzen 5
+Procesor model	1600
+Grafika	nVidia
+Grafika model	GTX1650
+Radna memorija [GB]	16
+Kapacitet diska [GB]	0
+Kapacitet SSD-a [GB]	500',6299.00),
+(null,'Računalo LINKS Office U44IW','Operativni sistem	Windows 10
+Procesor	Intel
+Procesor tip	Core i5
+Procesor model	11400
+Radna memorija [GB]	16
+Grafika	Intel
+Grafika model	Intel HD Graphics
+Kapacitet diska [GB]	0
+Kapacitet SSD-a [GB]	500',5299.00),
+(null,'Računalo ASUS ExpertCenter X5 Mini Tower X500MA','Operativni sistem	Windows 10 PRO
+Procesor	AMD
+Procesor tip	Ryzen 3
+Procesor model	4300G
+Radna memorija [GB]	8
+Grafika	AMD
+Grafika model	Radeon Graphics
+Kapacitet diska [GB]	1000
+Kapacitet SSD-a [GB]	256',5399.00),
+(null,'Računalo DELL OptiPlex 3080 MT','Operativni sistem	Windows 10 PRO
+Procesor	Intel
+Procesor tip	Core i5
+Procesor model	10505
+Radna memorija [GB]	8
+Grafika	Intel
+Kapacitet diska [GB]	0
+Kapacitet SSD-a [GB]	250',6599.00),
+(null,'Računalo APPLE iMac 24','Operativni sistem	macOS
+Procesor	Apple
+Procesor tip	M-Series
+Procesor model	M1
+Grafika	Apple
+Grafika model	Apple Graphics
+Radna memorija [GB]	8
+Kapacitet diska [GB]	0
+Kapacitet SSD-a [GB]	512
+Dijagonala ekrana	23"
+Tipkovnica	DA
+Touch	NE
+Bežična mreža (WiFi)	DA
+Bluetooth	DA
+HDMI	NE',15389.00);
+
+
+
+
+# narudzba 1-5
+
+insert into narudzba (sifra,kupac,datum_narudzbe,datum_otpreme) values
+(null,1,'2019-11-23','2021-12-14'),
+(null,2,'2018-07-21','2018-08-01'),
+(null,3,'2020-11-11','2020-11-20'),
+(null,4,'2021-03-05','2021-03-21'),
+(null,5,'2021-05-27','2021-06-17');
+
+
+# proizvod_narudzba 1-5
+
+insert into proizvod_narudzba (gamingxracunalo,komponenta,narudzba) values
+(null,27,1),
+(1,null,2),
+(null,9,3),
+(null,41,4),
+(6,null,5);
