@@ -43,7 +43,7 @@ create table kupac(
     prezime varchar(50) not null,
     email varchar(50) not null,
     adresa varchar(50) not null,
-    brojtelefona varchar(20) not null
+    brojtelefona varchar(20)
 );
 
 
