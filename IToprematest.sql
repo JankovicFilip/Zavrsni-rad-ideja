@@ -32,6 +32,7 @@ create table narudzba(
 );
 
 create table proizvod_narudzba(
+    sifra int not null primary key auto_increment,
     gamingxracunalo int,
     komponenta int,
     narudzba int not null
@@ -933,9 +934,28 @@ insert into narudzba (sifra,kupac,datum_narudzbe,datum_otpreme) values
 
 # proizvod_narudzba 1-5
 
-insert into proizvod_narudzba (gamingxracunalo,komponenta,narudzba) values
-(null,27,1),
-(1,null,2),
-(null,9,3),
-(null,41,4),
-(6,null,5);
+insert into proizvod_narudzba (sifra,gamingxracunalo,komponenta,narudzba) values
+(null,null,27,1),
+(null,1,null,2),
+(null,null,9,3),
+(null,null,41,4),
+(null,6,null,5);
+
+
+select a.ime, a.prezime, c.narudzba, e.naziv, e.cijena
+from kupac a
+inner join narudzba b on b.kupac = a.sifra
+inner join proizvod_narudzba c on c.narudzba = b.sifra
+inner join komponenta e on c.komponenta = e.sifra
+where e.naziv is not null;
+
+
+select a.ime, a.prezime, c.narudzba, d.naziv, d.cijena
+from kupac a
+inner join narudzba b on b.kupac = a.sifra
+inner join proizvod_narudzba c on c.narudzba = b.sifra
+inner join gamingxracunalo d on c.gamingxracunalo = d.sifra
+where d.naziv is not null;
+
+
+
