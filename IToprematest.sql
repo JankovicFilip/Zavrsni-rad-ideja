@@ -9,6 +9,15 @@ use IToprematest;
 # između values i zagrada ne smije biti razmak u redovima
 
 
+create table korisnik(
+    sifra int not null primary key auto_increment,
+    korisnickoime varchar(20) not null,
+    zaporka char(16) not null,
+    email varchar(50) not null,
+    ime varchar(50) not null,
+    uloga varchar(11) not NULL
+);
+
 create table komponenta(
     sifra int not null primary key auto_increment,
     naziv varchar(100) not null,
@@ -956,6 +965,5 @@ inner join narudzba b on b.kupac = a.sifra
 inner join proizvod_narudzba c on c.narudzba = b.sifra
 inner join gamingxracunalo d on c.gamingxracunalo = d.sifra
 where d.naziv is not null;
-
 
 
